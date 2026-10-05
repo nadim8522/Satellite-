@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="ur" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>ISRO-NASA Screening Test</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="card">
+
+        <h2>
+            پنچایت سمیتی تعلیمی محکمہ، ماجلگاؤں
+        </h2>
+
+        <h1>
+            Practice Test
+        </h1>
+
+        <h2>
+            ISRO-NASA Screening Test
+        </h2>
+
+        <h3>
+            Satellite
+        </h3>
+
+
+        <p class="welcome">
+            سیٹلائٹ کے موضوع پر پریکٹس ٹیسٹ میں خوش آمدید
+        </p>
+
+
+        <form id="studentForm">
+
+            <label>
+                طالب علم کا نام
+            </label>
+
+            <input 
+            type="text" 
+            id="studentName"
+            placeholder="اپنا نام درج کریں"
+            required>
+
+
+            <label>
+                جماعت منتخب کریں
+            </label>
+
+            <select id="studentClass" required>
+
+                <option value="">
+                    جماعت منتخب کریں
+                </option>
+
+                <option>
+                    5
+                </option>
+
+                <option>
+                    6
+                </option>
+
+                <option>
+                    7
+                </option>
+
+                <option>
+                    8
+                </option>
+
+            </select>
+
+
+            <label>
+                اسکول کا نام
+            </label>
+
+            <input 
+            type="text" 
+            id="schoolName"
+            placeholder="اسکول کا نام درج کریں"
+            required>
+
+
+            <label>
+                تعلقہ
+            </label>
+
+            <input 
+            type="text" 
+            id="taluka"
+            placeholder="تعلقہ درج کریں"
+            required>
+
+
+            <button type="submit">
+                ٹیسٹ شروع کریں
+            </button>
+
+        </form>
+
+
+        <div class="footer">
+
+            <p>
+                Test Designed by:
+            </p>
+
+            <p>
+                Syed Nadimuddin Kalimuddin Jafri
+            </p>
+
+            <p>
+                Z.P.P. Urdu School, Nitrud
+            </p>
+
+        </div>
+
+
+    </div>
+
+</div>
+
+
+<script>
+
+document.getElementById("studentForm")
+.addEventListener("submit", function(e){
+
+    e.preventDefault();
+
+
+    let student = {
+
+        name:
+        document.getElementById("studentName").value,
+
+        class:
+        document.getElementById("studentClass").value,
+
+        school:
+        document.getElementById("schoolName").value,
+
+        taluka:
+        document.getElementById("taluka").value
+
+    };
+
+
+    localStorage.setItem(
+        "studentData",
+        JSON.stringify(student)
+    );
+
+
+    window.location.href="quiz.html";
+
+
+});
+
+</script>
+
+
+</body>
+</html>
