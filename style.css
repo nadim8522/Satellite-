@@ -1,0 +1,390 @@
+/* Jameel Noori Nastaleeq Font */
+
+@font-face {
+
+    font-family: "Jameel Noori Nastaleeq";
+
+    src: url("../fonts/JameelNooriNastaleeq.woff2");
+
+}
+
+
+
+* {
+
+    box-sizing: border-box;
+
+}
+
+
+
+body {
+
+    margin: 0;
+
+    padding: 0;
+
+    direction: rtl;
+
+    font-family: "Jameel Noori Nastaleeq", serif;
+
+    background: linear-gradient(
+        135deg,
+        #e8f5e9,
+        #e3f2fd
+    );
+
+    min-height: 100vh;
+
+}
+
+
+
+/* Main Container */
+
+.container {
+
+    width: 100%;
+
+    min-height: 100vh;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    padding: 20px;
+
+}
+
+
+
+/* Card Design */
+
+.card {
+
+    width: 100%;
+
+    max-width: 600px;
+
+    background: white;
+
+    padding: 30px;
+
+    border-radius: 20px;
+
+    text-align: center;
+
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+
+}
+
+
+
+.card h1 {
+
+    font-size: 36px;
+
+    margin: 10px;
+
+    color: #1565c0;
+
+}
+
+
+
+.card h2 {
+
+    font-size: 26px;
+
+    margin: 8px;
+
+    color: #1b5e20;
+
+}
+
+
+
+.card h3 {
+
+    font-size: 28px;
+
+    color: #e65100;
+
+}
+
+
+
+/* Text */
+
+.welcome {
+
+    font-size: 24px;
+
+}
+
+
+
+/* Form */
+
+label {
+
+    display: block;
+
+    text-align: right;
+
+    font-size: 22px;
+
+    margin-top: 15px;
+
+}
+
+
+
+input,
+select {
+
+    width: 100%;
+
+    padding: 12px;
+
+    margin-top: 5px;
+
+    font-size: 20px;
+
+    font-family: inherit;
+
+    border-radius: 10px;
+
+    border: 1px solid #aaa;
+
+}
+
+
+
+/* Buttons */
+
+button {
+
+    width: 90%;
+
+    margin: 20px auto;
+
+    padding: 14px;
+
+    display: block;
+
+    border: none;
+
+    border-radius: 30px;
+
+    background: #1565c0;
+
+    color: white;
+
+    font-size: 24px;
+
+    font-family: inherit;
+
+    cursor: pointer;
+
+}
+
+
+
+button:hover {
+
+    background: #0d47a1;
+
+}
+
+
+
+/* Quiz */
+
+.quiz-header {
+
+    text-align: center;
+
+}
+
+
+
+.timer {
+
+    margin: 15px;
+
+    font-size: 25px;
+
+    color: #c62828;
+
+}
+
+
+
+/* Progress Bar */
+
+.progress-box {
+
+    height: 12px;
+
+    width: 100%;
+
+    background: #ddd;
+
+    border-radius: 10px;
+
+}
+
+
+
+#progressBar {
+
+    height: 12px;
+
+    width: 0%;
+
+    background: #2e7d32;
+
+    border-radius: 10px;
+
+}
+
+
+
+/* Question */
+
+.question-area {
+
+    margin-top: 25px;
+
+    text-align: right;
+
+}
+
+
+
+#questionText {
+
+    font-size: 30px;
+
+    line-height: 2;
+
+}
+
+
+
+#options button {
+
+    background: #f1f8e9;
+
+    color: #000;
+
+    border: 1px solid #81c784;
+
+    text-align: right;
+
+}
+
+
+
+#options button:hover {
+
+    background: #c8e6c9;
+
+}
+
+
+
+.navigation {
+
+    display: flex;
+
+    gap: 10px;
+
+}
+
+
+
+.navigation button {
+
+    width: 50%;
+
+}
+
+
+
+/* Result */
+
+.result-box {
+
+    font-size: 25px;
+
+    line-height: 2;
+
+}
+
+
+
+/* Footer */
+
+.footer {
+
+    margin-top: 25px;
+
+    border-top: 1px solid #ddd;
+
+    padding-top: 15px;
+
+    font-size: 20px;
+
+}
+
+
+
+/* Mobile Responsive */
+
+@media(max-width:600px){
+
+
+.card{
+
+    padding:20px;
+
+}
+
+
+
+.card h1{
+
+    font-size:28px;
+
+}
+
+
+
+.card h2{
+
+    font-size:22px;
+
+}
+
+
+
+#questionText{
+
+    font-size:24px;
+
+}
+
+
+
+button{
+
+    font-size:20px;
+
+}
+
+
+}
