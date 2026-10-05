@@ -1,0 +1,253 @@
+{
+id:11,
+
+question:
+"دنیا کا پہلا مصنوعی سیٹلائٹ کون سا تھا؟",
+
+options:[
+"Sputnik 1",
+"Aryabhata",
+"Chandrayaan-1",
+"INSAT-1"
+],
+
+answer:0
+},
+
+
+{
+id:12,
+
+question:
+"ہندوستان کا پہلا مصنوعی سیٹلائٹ کون سا تھا؟",
+
+options:[
+"Aryabhata",
+"Rohini",
+"INSAT",
+"Mangalyaan"
+],
+
+answer:0
+},
+
+
+{
+id:13,
+
+question:
+"آریہ بھٹ (Aryabhata) سیٹلائٹ کب خلا میں بھیجا گیا تھا؟",
+
+options:[
+"1975",
+"1985",
+"1995",
+"2005"
+],
+
+answer:0
+},
+
+
+{
+id:14,
+
+question:
+"INSAT سیریز کے سیٹلائٹ کا تعلق کس شعبے سے ہے؟",
+
+options:[
+"مواصلات (Communication)",
+"زراعت",
+"کھیل",
+"تعلیم"
+],
+
+answer:0
+},
+
+
+{
+id:15,
+
+question:
+"GPS کا استعمال کس کام کے لیے کیا جاتا ہے؟",
+
+options:[
+"مقام معلوم کرنے کے لیے",
+"پانی صاف کرنے کے لیے",
+"کھانا بنانے کے لیے",
+"روشنی پیدا کرنے کے لیے"
+],
+
+answer:0
+},
+
+
+{
+id:16,
+
+question:
+"سیٹلائٹ کو زمین کے مدار میں پہنچانے کے لیے کس کا استعمال ہوتا ہے؟",
+
+options:[
+"راکٹ (Rocket)",
+"جہاز",
+"ٹرین",
+"کشتی"
+],
+
+answer:0
+},
+
+
+{
+id:17,
+
+question:
+"Polar Satellite Launch Vehicle کو مختصر میں کیا کہتے ہیں؟",
+
+options:[
+"PSLV",
+"GSLV",
+"NASA",
+"ISRO"
+],
+
+answer:0
+},
+
+
+{
+id:18,
+
+question:
+"GSLV کا مکمل نام کیا ہے؟",
+
+options:[
+"Geosynchronous Satellite Launch Vehicle",
+"Global Space Launch Vehicle",
+"General Satellite Launch Vehicle",
+"Geo Science Launch Vehicle"
+],
+
+answer:0
+},
+
+
+{
+id:19,
+
+question:
+"Aditya-L1 مشن کس کا مطالعہ کرتا ہے؟",
+
+options:[
+"سورج",
+"چاند",
+"مریخ",
+"زمین"
+],
+
+answer:0
+},
+
+
+{
+id:20,
+
+question:
+"Mangalyaan مشن کس سیارے سے متعلق ہے؟",
+
+options:[
+"مریخ",
+"زہرہ",
+"چاند",
+"مشتری"
+],
+
+answer:0
+},
+
+
+{
+id:21,
+
+question:
+"Chandrayaan مشن کس جسم کا مطالعہ کرتا ہے؟",
+
+options:[
+"چاند",
+"سورج",
+"مریخ",
+"ستارے"
+],
+
+answer:0
+},
+
+
+{
+id:22,
+
+question:
+"خلائی تحقیق میں استعمال ہونے والی گاڑی کو کیا کہتے ہیں؟",
+
+options:[
+"Spacecraft",
+"Car",
+"Ship",
+"Bus"
+],
+
+answer:0
+},
+
+
+{
+id:23,
+
+question:
+"Geostationary Satellite کس کے ساتھ ایک ہی رفتار سے گردش کرتا ہے؟",
+
+options:[
+"زمین",
+"چاند",
+"سورج",
+"ستارہ"
+],
+
+answer:0
+},
+
+
+{
+id:24,
+
+question:
+"سیٹلائٹ میں توانائی پیدا کرنے کے لیے عام طور پر کیا استعمال ہوتا ہے؟",
+
+options:[
+"Solar Panels",
+"پانی",
+"کوئلہ",
+"پیٹرول"
+],
+
+answer:0
+},
+
+
+{
+id:25,
+
+question:
+"خلائی سیٹلائٹ سے حاصل ہونے والی تصویروں کا استعمال کہاں ہوتا ہے؟",
+
+options:[
+"زمین کے نقشے بنانے میں",
+"کھانا پکانے میں",
+"کپڑے بنانے میں",
+"گاڑی چلانے میں"
+],
+
+answer:0
+}
